@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+input, button{font-family:inherit;}
+
+input {
+  border: none;
+  border-bottom: 1px lightgray solid;
+  height: 30px;
+}
+
+input:focus {
+  border-bottom: 2px lightskyblue solid;
+  outline: none;
+}
+
+button {
+  padding: 5px;
+  border-radius: 0;
+  background-color: cadetblue;
+  color: white;
+  height: 33px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.addPolynomial {
+  width: 80%;
+}
+
+.polynomial {
+  width: 46%;
+  margin: 2%;
+  display: inline-block;
+}
+
+.polynomialText {
+  width: 98%;
+}
+
+.min, .max {
+  width: 49%;
+  display: inline-block;
+}
+
+.sendPolynomial {
+  width: 98%;
+  margin-top: 2px;
+}
